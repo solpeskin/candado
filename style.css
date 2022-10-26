@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://i.ibb.co/MRNPbMg/gif.gif");
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(50, 214, 66);
+    border: none;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.hide{
+    display: none;
+}
+
+
+img {
+    width: 90vw;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border: rgb(50, 214, 66) solid 4px;
+    color: rgb(50, 214, 66);
+    padding-left: 10px;
+}
